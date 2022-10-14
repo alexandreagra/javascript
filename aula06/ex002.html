@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgba(105, 105, 173);
+            color: white;
+            font: normal 20pt Arial;
+        }
+
+        h1{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!!</p>
+
+<!-- utilize o "//" em uma linha para comentar dentro de um script
+--> 
+ 
+    <!--<script>
+    var nome = window.prompt('Qual é seu nome?')
+    window.alert('É um grande prazer em te conhecer, ' + nome + '!') // sinal de +, nesse caso, é Concatenação!
+    </script>-->
+
+    <script>
+        var n1 = Number(window.prompt('Digite um número: ')) // string
+        var n2 = Number(window.prompt('Digite um número: ')) // string
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)//Concatenação
+        // o + pode servir pra adição ou concatenação: (number + number) para adição e (string + string) para concatenação
+        
+        //'parseFloat' para números reais e 'parseInt' para números inteiros. Atualmente se usar apenas "Number" para conversão, os exemplos acima são utilizados caso haja a real necessidade de declarar um tipo numérico. 
+
+        //para converter número em string, basta colocar Sting('content') antes do valor.
+
+        //ao invés de usar um monte de crases para tratar de multiplas strings, você pode utilizar o "${content}"
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+&& -> 'e'
+|| -> 'ou'
+= -> 'recebe'
+== -> 'igual'
+=== -> 'idêntico'
+!= -> 'diferente'
